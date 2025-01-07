@@ -1,0 +1,11 @@
+langchain
+langchain-ollama
+langchain-experimental
+langchain-community
+llama-index-vector-stores-faiss
+pvporcupine
+gTTS
+pydub
+SpeechRecognition
+markdown
+faiss-cpu
