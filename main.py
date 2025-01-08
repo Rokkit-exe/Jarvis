@@ -16,6 +16,7 @@ from langchain.agents import initialize_agent, Tool
 from langchain.callbacks.manager import CallbackManager
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from tools.note_engine import note_saver
+from tools.weather_tool import weather_tool
 
 dotenv.load_dotenv()
 
@@ -95,6 +96,7 @@ async def main():
 
     tools = [
         note_saver,
+        weather_tool
     ]
 
     agent = initialize_agent(
